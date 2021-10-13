@@ -32,6 +32,7 @@ public class Main {
             sum = 2;
         } else {
             int tmp = 2;
+            sum = 2;
             for (int i = 2; i <= n; i++) {
                 tmp = tmp * 2 * i * (2 * i - 1) / (i - 1);
                 sum += tmp;
